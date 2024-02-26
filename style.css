@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backgroun_header{
+    background-image: url(header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+    opacity: 0.85;
+}
