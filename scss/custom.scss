@@ -8,8 +8,19 @@ $fivety-color:#D90D0D;
 $text-title:#D9C9BA;
 $text-secondary:#D9C9BA;
 
+body{
+    font-family: sans-serif;
+}
+
+
 .bg-primary-color{
     background-color: $primary-color;
+}
+.bg-secondary-color{
+    background-color: $secondary-color;
+}
+.bg-trirty-color{
+    background-color: $trirty-color;
 }
 .text-title{
     color: $text-title;

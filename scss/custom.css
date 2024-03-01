@@ -1,5 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
 .bg-primary-color {
   background-color: #072B73;
+}
+
+.bg-secondary-color {
+  background-color: #2678BF;
+}
+
+.bg-trirty-color {
+  background-color: #6BB3F2;
 }
 
 .text-title {

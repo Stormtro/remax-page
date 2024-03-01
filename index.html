@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="bg-info">
+<body class="bg-trirty-color">
     <!-- Menú de Navegaciónk -->
 
     <nav class="navbar  navbar-expand-sm bg-primary-color  align-items-center ">
@@ -40,7 +40,7 @@
 
     <!-- Banner Principal -->
     <header class="" style="height: 600px;">
-        <div class="container-fluid d-flex flex-column justify-content-center align-items-center backgroun_header">
+        <div class="container-fluid d-flex flex-column  justify-content-center align-items-center backgroun_header">
             <h1 class="text-title">Encuentra la Casa de tus Sueños en El Salvador</h1>
             <p>Con REMAX El Salvador, encontrar la propiedad perfecta es fácil y sin complicaciones.</p>
             <a href="#propiedades-destacadas" class="text-title btn background-btn">Ver Propiedades Disponibles</a>
@@ -139,8 +139,8 @@
 
 
     <!-- Sección de Agentes -->
-    <section class="bg-dark pt-5 pb-5">
-        <h1 class="text-center text-info">Nuestros Agentes</h1>
+    <section class="bg-secondary-color pt-5 pb-5">
+        <h1 class="text-center ">Nuestros Agentes</h1>
         <div class="container-fluid">
             <div class="row mt-3 justify-content-center">
                 <div class="col-md-3">
@@ -298,15 +298,15 @@
         </div>
     </section>
     <!-- Sección de Acerca de Nosotros -->
-    <section class="bg-dark text-info container-fluid pt-5 pb-5">
+    <section class="bg-secondary-color container-fluid pt-5 pb-5">
         <h1 class="text-center">Acerca de Nosotros</h1>
-        <h2>En REMAX El Salvador, creemos en brindar un servicio inmobiliario excepcional, que va más allá de
+        <h2 class="text-center">En REMAX El Salvador, creemos en brindar un servicio inmobiliario excepcional, que va más allá de
             simplemente encontrar y vender propiedades. Nuestro compromiso es satisfacer las necesidades y superar las
             expectativas de nuestros clientes en cada paso del camino.</h2>
     </section>
     <!-- Sección de Testimonios -->
-    <section class="bg-dark">
-        <h1 class="text-center text-info">Testimonios de Clientes Satisfechos</h1>
+    <section class="bg-secondary-color">
+        <h1 class="text-center ">Testimonios de Clientes Satisfechos</h1>
         <div class="container-fluid">
             <div class="row mt-3 justify-content-center">
 
@@ -359,34 +359,30 @@
     </section>
     <!-- Sección de Contacto -->
     <section>
-        <h1>Contáctenos</h1>
-        <div class="container">
-            <h1 class="mt-5">Formulario de Contacto</h1>
+        <h1 class="text-center">Contáctenos</h1>
+        <div class="container d-flex flex-column">
+            <h1 class="mt-5 text-center">Formulario de Contacto</h1>
 
-            <form action="enviar-mensaje.php" method="POST" class="mt-4">
-                <div class="row g-3">
-                    <div class="col-md-6">
+            <form action="" method="POST" class="mt-4 ">
+                    <div class="">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre" required>
                     </div>
-                    <div class="col-md-6">
+                    <div class="">
                         <label for="correo" class="form-label">Correo Electrónico</label>
                         <input type="email" class="form-control" id="correo" name="correo" required>
                     </div>
-                </div>
-                <div class="row g-3">
-                    <div class="col-md-6">
+                    <div class="">
                         <label for="telefono" class="form-label">Teléfono</label>
                         <input type="tel" class="form-control" id="telefono" name="telefono" required>
                     </div>
-                </div>
-                <div class="row g-3">
+                <div class="">
                     <div class="col-md-12">
                         <label for="mensaje" class="form-label">Mensaje</label>
                         <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary mt-3">Enviar Mensaje</button>
+                <button type="submit" class="btn btn-primary mt-3 w-25  ">Enviar Mensaje</button>
             </form>
 
             <hr>
