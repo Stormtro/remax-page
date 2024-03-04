@@ -1,20 +1,90 @@
-$primary-color:#072B73 ;
-$secondary-color:#2678BF ;
-$trirty-color:#6BB3F2 ;
-$fourty-color:#D9C9BA;
-$fivety-color:#D90D0D;
+$primary-color: #072B73;
+$secondary-color: #063f70;
+$trirty-color: #6BB3F2;
+$fourty-color: #D9C9BA;
+$fivety-color: #D90D0D;
 
 
-$text-title:#D9C9BA;
-$text-secondary:#D9C9BA;
+$text-title: #D9C9BA;
+$text-secondary: #D9C9BA;
 
-.bg-primary-color{
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: $secondary-color;
+    text-transform: capitalize;
+
+}
+
+.backgroun_header {
+    background-image: url(/img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+    opacity: 0.75;
+}
+
+
+.custom-nav{
     background-color: $primary-color;
-}
-.text-title{
+    font-family: sans-serif;
     color: $text-title;
 }
-.background-btn{
-    background-color: #D90D0D;
+.container-custom{
+    height: 400px;
+}
+.container-custom2{
+    height: 300px;
+}
+.text-custom{
+    font-family: sans-serif;
     color: $text-title;
+
+}
+.text-custom2{
+    font-family: sans-serif;
+    color: #D90D0D ;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.text-custom3{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000000 ;
+    font-size: 40px;
+    text-align: center;
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 10px;
+}
+.background-btn {
+    background-color: $fivety-color;
+    color: $text-title;
+}
+
+.background-btn:hover{
+    background-color: $fivety-color;
+    opacity: 1;
+
+}
+.text-nav {
+    color: $text-title;
+    font-size: 25px;
+}
+.text-principal{
+    font-size: 60px;
+    font-weight: bold;
 }

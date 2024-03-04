@@ -1,129 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopfy</title>
+    <title>Remax</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+
     <link rel="stylesheet" href="scss/custom.css">
 
 
 </head>
 
-<body class="bg-info">
+<body class="bg-secondary-color text-custom">
     <!-- Menú de Navegaciónk -->
-
-    <nav class="navbar  navbar-expand-sm bg-primary-color  align-items-center ">
+    <nav class="navbar navbar-expand-lg  custom-nav">
         <div class="container-fluid ">
-            <a class="navbar-brand " href="#"><img src="remax-logo-png-transparent- (2).png" alt=""></a>
-            <ul class="navbar-nav justify-content-end  ">
-                <li class="nav-item pe-4">
-                    <a class="nav-link text-title" href="#">Inicio</a>
-                </li>
-                <li class="nav-item  pe-4">
-                    <a class="nav-link text-title" href="#">Propiedades</a>
-                </li>
-                <li class="nav-item  pe-4">
-                    <a class="nav-link text-title" href="#">Agentes</a>
-                </li>
-                <li class="nav-item pe-4">
-                    <a class="nav-link text-title" href="#">Acerca de Nosotros</a>
-                </li>
-                <li class="nav-item pe-4">
-                    <a class="nav-link text-title" href="#">Contáctenos</a>
-                </li>
-            </ul>
+            <a class="navbar-brand text-custom" href="index.html">
+                <img src="img/logo.png" alt="Logo REMAX El Salvador" width="80" height="30"
+                    class="d-inline-block align-top ">
+                El Salvador
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-custom" href="propiedades.html">Propiedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-custom" href="agentes.html">Agentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-custom" href="aboutus.html">Acerca de Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-custom" href="contacts.html">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-
     <!-- Banner Principal -->
     <header class="" style="height: 600px;">
         <div class="container-fluid d-flex flex-column justify-content-center align-items-center backgroun_header">
-            <h1 class="text-title">Encuentra la Casa de tus Sueños en El Salvador</h1>
-            <p>Con REMAX El Salvador, encontrar la propiedad perfecta es fácil y sin complicaciones.</p>
-            <a href="#propiedades-destacadas" class="text-title btn background-btn">Ver Propiedades Disponibles</a>
+            <h1 class="text-custom2">Encuentra la Casa de tus Sueños en El Salvador</h1>
+            <p class="text-custom3">Con REMAX El Salvador, encontrar la propiedad perfecta es fácil y sin complicaciones.</p>
+            <a href="#propiedades-destacadas" class=" btn background-btn">Ver Propiedades Disponibles</a>
 
         </div>
     </header>
     <!-- Sección de Propiedades Destacadas -->
     <section id="propiedades-destacadas" class="mt-5 ">
-        <h2 class="text-center mb-5">Propiedades Destacadas</h2>
+        <h2 class="text-center mb-5 text-principal">Propiedades Destacadas</h2>
 
-        <div class="row p-3">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="descargar.jpg" class="card-img-top" alt="Propiedad 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Casa de Playa en El Salvador</h5>
-                        <p class="card-text">Hermosa casa de playa ubicada en La Libertad con acceso directo a la playa
-                            y espectaculares vistas al océano. ¡No pierdas esta oportunidad única!</p>
-                        <a href="#" class="btn btn-primary">Más detalles</a>
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="img/descargar (2).jpg" class="card-img-top" alt="Propiedad 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa de Playa en La Libertad</h5>
+                            <p class="card-text">Disfruta de la playa con esta increíble casa en La Libertad, El
+                                Salvador.</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="descargar.jpg" class="card-img-top" alt="Propiedad 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Apartamento en San Salvador</h5>
-                        <p class="card-text">Moderno apartamento en San Salvador, con excelentes comodidades y ubicado
-                            en una zona privilegiada de la ciudad.</p>
-                        <a href="#" class="btn btn-primary">Más detalles</a>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="img/descargar (2).jpg" class="card-img-top" alt="Propiedad 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento en San Salvador</h5>
+                            <p class="card-text">Moderno apartamento en San Salvador, ideal para inversión o vivienda.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="descargar.jpg" class="card-img-top" alt="Propiedad 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Terreno en El Salvador</h5>
-                        <p class="card-text">Amplio terreno en venta en El Salvador, perfecto para la construcción de
-                            una casa de campo o un proyecto de inversión.</p>
-                        <a href="#" class="btn btn-primary">Más detalles</a>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="img/descargar (2).jpg" class="card-img-top" alt="Propiedad 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Terreno en El Salvador</h5>
+                            <p class="card-text">Amplio terreno en El Salvador, perfecto para desarrollar una casa de
+                                campo.</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="propiedades-destacadas">
-
-        <div class="row p-3">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="descargar.jpg" class="card-img-top" alt="Propiedad 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Casa de Playa en El Salvador</h5>
-                        <p class="card-text">Hermosa casa de playa ubicada en La Libertad con acceso directo a la playa
-                            y espectaculares vistas al océano. ¡No pierdas esta oportunidad única!</p>
-                        <a href="#" class="btn btn-primary">Más detalles</a>
+    <section id="propiedades-destacadas" class="mt-5 ">
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="img/descargar (2).jpg" class="card-img-top" alt="Propiedad 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa de Playa en La Libertad</h5>
+                            <p class="card-text">Disfruta de la playa con esta increíble casa en La Libertad, El
+                                Salvador.</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="descargar.jpg" class="card-img-top" alt="Propiedad 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Apartamento en San Salvador</h5>
-                        <p class="card-text">Moderno apartamento en San Salvador, con excelentes comodidades y ubicado
-                            en una zona privilegiada de la ciudad.</p>
-                        <a href="#" class="btn btn-primary">Más detalles</a>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="img/descargar (2).jpg" class="card-img-top" alt="Propiedad 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento en San Salvador</h5>
+                            <p class="card-text">Moderno apartamento en San Salvador, ideal para inversión o vivienda.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="descargar.jpg" class="card-img-top" alt="Propiedad 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Terreno en El Salvador</h5>
-                        <p class="card-text">Amplio terreno en venta en El Salvador, perfecto para la construcción de
-                            una casa de campo o un proyecto de inversión.</p>
-                        <a href="#" class="btn btn-primary">Más detalles</a>
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="img/descargar (2).jpg" class="card-img-top" alt="Propiedad 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Terreno en El Salvador</h5>
+                            <p class="card-text">Amplio terreno en El Salvador, perfecto para desarrollar una casa de
+                                campo.</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -139,73 +155,44 @@
 
 
     <!-- Sección de Agentes -->
-    <section class="bg-dark pt-5 pb-5">
-        <h1 class="text-center text-info">Nuestros Agentes</h1>
+    <section class=" pt-5 pb-5">
+        <h1 class="text-center text-principal m-5">Nuestros Agentes</h1>
         <div class="container-fluid">
-            <div class="row mt-3 justify-content-center">
-                <div class="col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image"
-                            style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Juan Pérez</h4>
-                            <p class="card-text">Especialización: Propiedades residenciales en San Salvador
-                                Experiencia: 10 años en el mercado inmobiliario
-                                Descripción: Juan Pérez es un agente de bienes raíces experimentado y profesional que se
-                                especializa en
-                                ayudar a las familias a encontrar la casa perfecta en San Salvador. Con una sólida red
-                                de
-                                contactos y un
-                                profundo conocimiento del mercado, Juan se enorgullece de brindar un servicio
-                                personalizado
-                                y de alta
-                                calidad a sus clientes</p>
-                            <a href="#" class="btn btn-primary">Ver Perfil</a>
+            <div class="container-fluid">
+                <div class="row justify-content-around">
+                    <div class="col-lg-4 col-12">
+                        <div class="card">
+                            <img src="img/pexels-andrea-piacquadio-774909.jpg" class="card-img-top" alt="Agente 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Juan Pérez</h5>
+                                <p class="card-text">Juan es un agente de bienes raíces experimentado y dedicado que se
+                                    especializa en el mercado comercial en San Salvador.</p>
+                                <a href="#" class="btn btn-primary">Ver Perfil</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image"
-                            style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Juan Pérez</h4>
-                            <p class="card-text">Especialización: Propiedades residenciales en San Salvador
-                                Experiencia: 10 años en el mercado inmobiliario
-                                Descripción: Juan Pérez es un agente de bienes raíces experimentado y profesional que se
-                                especializa en
-                                ayudar a las familias a encontrar la casa perfecta en San Salvador. Con una sólida red
-                                de
-                                contactos y un
-                                profundo conocimiento del mercado, Juan se enorgullece de brindar un servicio
-                                personalizado
-                                y de alta
-                                calidad a sus clientes</p>
-                            <a href="#" class="btn btn-primary">Ver Perfil</a>
+                    <div class="col-lg-4 col-12">
+                        <div class="card">
+                            <img src="img/pexels-andrea-piacquadio-774909.jpg" class="card-img-top" alt="Agente 2">
+                            <div class="card-body">
+                                <h5 class="card-title">María López</h5>
+                                <p class="card-text">María es una agente de bienes raíces con una pasión por las
+                                    propiedades de lujo en la playa.</p>
+                                <a href="#" class="btn btn-primary">Ver Perfil</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-3">
-
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image"
-                            style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Juan Pérez</h4>
-                            <p class="card-text">Especialización: Propiedades residenciales en San Salvador
-                                Experiencia: 10 años en el mercado inmobiliario
-                                Descripción: Juan Pérez es un agente de bienes raíces experimentado y profesional que se
-                                especializa en
-                                ayudar a las familias a encontrar la casa perfecta en San Salvador. Con una sólida red
-                                de
-                                contactos y un
-                                profundo conocimiento del mercado, Juan se enorgullece de brindar un servicio
-                                personalizado
-                                y de alta
-                                calidad a sus clientes</p>
-                            <a href="#" class="btn btn-primary">Ver Perfil</a>
+                    <div class="col-lg-4 col-12">
+                        <div class="card">
+                            <img src="img/pexels-andrea-piacquadio-774909.jpg" class="card-img-top" alt="Agente 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Carlos Martínez</h5>
+                                <p class="card-text">Carlos es un agente de bienes raíces experimentado y dedicado que
+                                    se especializa en el mercado comercial en San Salvador.</p>
+                                <a href="#" class="btn btn-primary">Ver Perfil</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -213,23 +200,9 @@
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Sección de Servicios -->
     <section class="container mb-5">
-        <h1 class="text-center text-dark mt-5">Nuestros Servicios</h1>
+        <h1 class="text-center text-principal mt-5">Nuestros Servicios</h1>
         <div class="container-fluid ">
             <div class="row mt-3 justify-content-center">
 
@@ -297,133 +270,110 @@
             </div>
         </div>
     </section>
+
+
     <!-- Sección de Acerca de Nosotros -->
-    <section class="bg-dark text-info container-fluid pt-5 pb-5">
-        <h1 class="text-center">Acerca de Nosotros</h1>
-        <h2>En REMAX El Salvador, creemos en brindar un servicio inmobiliario excepcional, que va más allá de
-            simplemente encontrar y vender propiedades. Nuestro compromiso es satisfacer las necesidades y superar las
-            expectativas de nuestros clientes en cada paso del camino.</h2>
+    <section class="  container-fluid container-custom pt-5 pb-5">
+        <h1 class="text-center text-principal">Acerca de Nosotros</h1>
+        <h2 class="text-center">
+            <p>En REMAX El Salvador, creemos en brindar un servicio inmobiliario excepcional,</p>
+            <p>que va más allá de
+                simplemente encontrar y vender propiedades.</p>
+            <p>Nuestro compromiso es satisfacer las necesidades y superar las
+                expectativas de nuestros clientes en cada paso del camino.</p>
+        </h2>
     </section>
+
+
+
     <!-- Sección de Testimonios -->
-    <section class="bg-dark">
-        <h1 class="text-center text-info">Testimonios de Clientes Satisfechos</h1>
-        <div class="container-fluid">
-            <div class="row mt-3 justify-content-center">
-
-
-                <div class="col-md-3 m-2  mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image"
-                            style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Ana Martínez</h4>
-                            <p class="card-text">Gracias a REMAX El Salvador, encontré una casa de ensueño en un
-                                excelente vecindario. El proceso de compra
-                                fue sencillo y sin problemas, gracias a su dedicado equipo.</p>
-                            <a href="#" class="btn btn-primary">Ver Perfil</a>
-                        </div>
+    <section class=" container-custom">
+        <h1 class="text-center text-principal mb-5 ">Testimonios de Clientes Satisfechos</h1>
+        <div class="container-fluid text-center">
+            <div id="carouselTestimonios" class="carousel slide mt-5" data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <p>"Estoy muy agradecido con REMAX El Salvador por ayudarme a encontrar la casa de mis sueños.
+                            Su equipo fue profesional y atento a todas mis necesidades."</p>
+                        <footer>- Juan Pérez</footer>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Excelente servicio al cliente. Gracias a REMAX El Salvador, ahora tengo la propiedad
+                            perfecta para mi familia."</p>
+                        <footer>- María González</footer>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"La mejor experiencia que he tenido en el mundo inmobiliario. No dudaría en recomendar a
+                            REMAX El Salvador a cualquiera."</p>
+                        <footer>- Carlos Mendoza</footer>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
-                <div class="col-md-3 m-2  mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image"
-                            style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Jorge Pérez</h4>
-                            <p class="card-text">Después de visitar muchas propiedades sin éxito, me puse en contacto
-                                con REMAX El Salvador. Gracias a su
-                                amplia cartera de propiedades, encontré exactamente lo que buscaba..</p>
-                            <a href="#" class="btn btn-primary">Ver Perfil</a>
-                        </div>
+
+    <!-- Sección de Contacto -->
+    <section class="mt-5">
+        <h1 class="text-center text-principal">Contáctenos</h1>
+        <div class="container">
+            <h1 class="mt-5 text-center text-principal">Formulario de Contacto</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="telefono" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
                     </div>
-                </div>
-
-                <div class="col-md-3 m-2 mb-5  mt-5">
-
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image"
-                            style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Luis López</h4>
-                            <p class="card-text">Después de visitar muchas propiedades sin éxito, me puse en contacto
-                                con REMAX El Salvador. Gracias a su
-                                amplia cartera de propiedades, encontré exactamente lo que buscaba..</p>
-                            <a href="#" class="btn btn-primary">Ver Perfil</a>
-                        </div>
+                    <div class="col-md-6 text-center">
+                        <h3 class="">Información de Contacto</h3>
+                        <p><strong>Dirección:</strong> 123 Calle Principal, San Salvador</p>
+                        <p><strong>Teléfono:</strong> (503) 1234-5678</p>
+                        <p><strong>Correo Electrónico:</strong> info@remaxelsalvador.com</p>
+                        <p><strong>Horario:</strong> Lunes a Viernes de 8:00 AM a 6:00 PM</p>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </section>
-    <!-- Sección de Contacto -->
-    <section>
-        <h1>Contáctenos</h1>
-        <div class="container">
-            <h1 class="mt-5">Formulario de Contacto</h1>
-
-            <form action="enviar-mensaje.php" method="POST" class="mt-4">
-                <div class="row g-3">
-                    <div class="col-md-6">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" name="nombre" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="correo" class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="correo" name="correo" required>
-                    </div>
-                </div>
-                <div class="row g-3">
-                    <div class="col-md-6">
-                        <label for="telefono" class="form-label">Teléfono</label>
-                        <input type="tel" class="form-control" id="telefono" name="telefono" required>
-                    </div>
-                </div>
-                <div class="row g-3">
-                    <div class="col-md-12">
-                        <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary mt-3">Enviar Mensaje</button>
-            </form>
-
-            <hr>
-
-            <h2>Información de Contacto</h2>
-            <p><strong>Dirección:</strong> 123 Avenida Principal, San Salvador, El Salvador</p>
-            <p><strong>Teléfono:</strong> +503 1234-5678</p>
-            <p><strong>Correo Electrónico:</strong> info@remaxelsalvador.com</p>
-        </div>
 
     </section>
+
+
+<hr class="bg-dark">
     <!-- Pie de Página -->
-    <footer>
-        <ul>
-            <li>facebook</li>
-            <li>intagram</li>
-            <li>twiter</li>
-        </ul>
-        <h4>politicas de privacidad</h4>
-        <h4>Derechos de autor</h4>
-        <button>arriba</button>
+    <footer class="container">
+        <div class="row text-center">
+            <a class="col-sm p-3 social-icons text-custom" href=""><i class="fab fa-instagram"></i></a>
+            <a class="col-sm p-3 social-icons text-custom" href=""><i class="fab fa-facebook"></i></a>
+            <a class="col-sm p-3 social-icons text-custom" href=""><i class="fab fa-twitter"></i></a>
+            <a class="col-sm p-3 social-icons text-custom" href=""><i class="fab fa-github"></i></a>
+        </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
