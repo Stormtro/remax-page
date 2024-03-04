@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +22,25 @@ body {
 .custom-nav {
   background-color: #072B73;
   font-family: sans-serif;
+=======
+body {
+  font-family: sans-serif;
+}
+
+.bg-primary-color {
+  background-color: #072B73;
+}
+
+.bg-secondary-color {
+  background-color: #2678BF;
+}
+
+.bg-trirty-color {
+  background-color: #6BB3F2;
+}
+
+.text-title {
+>>>>>>> e30a8beefe39fb70b941581488de6dd0298197a4
   color: #D9C9BA;
 }
 
